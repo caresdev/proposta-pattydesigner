@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family:'Calibri', sans-serif;
+}
+
+header{
+   width: 100%;
+   height: 100%;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.title{
+    font-family: inherit;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(185, 185, 185);
+}
+
+.slogan{
+    margin-bottom: 30px;
+    font-style: italic; 
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info, .center, .bottom{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    height: auto;
+}
+
+.main-divs{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.center, .bottom{
+    text-align: center;
+}
+
+.book-appointment{
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.title, .company, .bold{
+    font-weight: 900 !important;
+}
+
+.bigger{
+    font-size: 60px;
+}
+
+.bigger-font{
+    font-size: 18px;
+}
+
+.experience{
+    color: rgb(169, 169, 169);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.job-experience, .testimonial{
+    width: 400px;
+    border: 2px solid rgb(217, 217, 217);
+    padding: 40px;
+}
+
+.job-experience{
+    height: 400px;
+}
+
+.testimonial{
+    height: 700px;
+}
+
+.job-img-container{
+    width: 400px;
+    height: 300px;
+}
+
+.job-images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.quote{
+    width: 65px;
+    height: 65px;
+    opacity: 0.7;
+}
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.profile-container{
+    align-items: center;
+}
+
+.services{
+    width: 1200px;
+    margin-bottom: 45px;
+}
+
+.service-container{
+    font-size: 26px;
+    width: 360px;
+    border: 2px solid rgb(217, 217, 217);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-margin{
+    margin-right: 45px;
+}
