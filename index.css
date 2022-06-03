@@ -33,6 +33,14 @@ a{
     text-decoration: none;
 }
 
+.icons-nav{
+    width: 150px;
+}
+
+.fa{
+    font-size: 32px;
+}
+
 a:hover{
     color: rgb(185, 185, 185);
 }
