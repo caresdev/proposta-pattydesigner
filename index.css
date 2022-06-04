@@ -23,7 +23,6 @@ header{
 
 .title{
     font-family: inherit;
-    font-size: 50px;
     margin-bottom: 10px;
 
 }
@@ -34,7 +33,7 @@ a{
 }
 
 .icons-nav{
-    width: 150px;
+    width: 140px;
 }
 
 .fa{
@@ -87,10 +86,6 @@ main{
 
 .title, .company, .bold{
     font-weight: 900 !important;
-}
-
-.bigger{
-    font-size: 60px;
 }
 
 .bigger-font{
